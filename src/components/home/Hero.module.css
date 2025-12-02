@@ -1,0 +1,42 @@
+.hero {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 0;
+    pointer-events: none;
+    color: #202124;
+}
+
+.content {
+    text-align: center;
+    pointer-events: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.title {
+    font-size: 4rem;
+    font-weight: 300;
+    letter-spacing: -0.02em;
+    color: #202124;
+    margin: 0;
+    line-height: 1;
+}
+
+.highlight {
+    font-weight: 700;
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 2.5rem;
+    }
+}

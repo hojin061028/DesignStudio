@@ -1,0 +1,48 @@
+.playground {
+    padding: 5rem 0;
+    background-color: #050505;
+    overflow: hidden;
+}
+
+.header {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    padding-left: 2rem;
+    color: #fff;
+}
+
+.scroller {
+    width: 100%;
+    overflow: hidden;
+    mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+}
+
+.inner {
+    display: flex;
+    gap: 1rem;
+    width: max-content;
+    animation: scroll 20s linear infinite;
+}
+
+.item {
+    width: 300px;
+    height: 200px;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}
+
+.item:hover {
+    transform: scale(0.95);
+}
+
+@keyframes scroll {
+    to {
+        transform: translateX(-50%);
+    }
+}

@@ -1,0 +1,61 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    /* Align to right */
+    align-items: center;
+    padding: 1.5rem 3rem;
+    z-index: 10;
+    /* Lower than Footer (20) so it gets covered */
+    background: transparent;
+    color: #333;
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
+    color: inherit;
+}
+
+.logoText {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #5f6368;
+    /* Google-like grey */
+}
+
+.navLinks {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navLinks a {
+    text-decoration: none;
+    color: #5f6368;
+    font-size: 0.95rem;
+    font-weight: 500;
+    transition: color 0.2s;
+}
+
+.navLinks a:hover {
+    color: #000;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        padding: 1rem;
+    }
+
+    .navLinks {
+        display: none;
+        /* Simple mobile hide for now */
+    }
+}

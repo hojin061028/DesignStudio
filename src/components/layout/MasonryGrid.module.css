@@ -1,0 +1,50 @@
+.grid {
+    column-count: 4;
+    column-gap: 1.5rem;
+    width: 100%;
+}
+
+.item {
+    break-inside: avoid;
+    margin-bottom: 1.5rem;
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #f0f0f0;
+}
+
+.image,
+.video {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.item:hover .image,
+.item:hover .video {
+    transform: scale(1.02);
+}
+
+.videoWrapper {
+    position: relative;
+    width: 100%;
+}
+
+@media (max-width: 1200px) {
+    .grid {
+        column-count: 3;
+    }
+}
+
+@media (max-width: 768px) {
+    .grid {
+        column-count: 2;
+    }
+}
+
+@media (max-width: 480px) {
+    .grid {
+        column-count: 1;
+    }
+}
