@@ -1,6 +1,0 @@
-1:"$Sreact.fragment"
-2:I[97367,["/DesignStudio/_next/static/chunks/ff1a16fafef87110.js","/DesignStudio/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
-3:"$Sreact.suspense"
-:HL["/DesignStudio/_next/static/chunks/10e1d14cdc3ceb0a.css","style"]
-0:{"buildId":"MwnpsljTCVc6UgecrwR04","rsc":["$","$1","c",{"children":[["$","div",null,{"className":"page-module__PdX7yq__container","children":["$","div",null,{"className":"page-module__PdX7yq__header","children":[["$","h1",null,{"children":"Option"}],["$","p",null,{"children":"Settings and configuration options will go here."}]]}]}],[["$","link","0",{"rel":"stylesheet","href":"/DesignStudio/_next/static/chunks/10e1d14cdc3ceb0a.css","precedence":"next"}]],["$","$L2",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@4"}]}]]}],"loading":null,"isPartial":false}
-4:null
