@@ -1,4 +1,5 @@
 import styles from './MasonryGrid.module.css'
+import { prefixPath } from '@/utils/prefix'
 
 export default function MasonryGrid({ items, type = 'image' }) {
     return (
@@ -6,11 +7,11 @@ export default function MasonryGrid({ items, type = 'image' }) {
             {items.map((item, index) => (
                 <div key={index} className={styles.item}>
                     {type === 'image' ? (
-                        <img src={item.src} alt={item.alt || `Gallery item ${index}`} className={styles.image} />
+                        <img src={prefixPath(item.src)} alt={item.alt || `Gallery item ${index}`} className={styles.image} />
                     ) : (
                         <div className={styles.videoWrapper}>
                             <video
-                                src={item.src}
+                                src={prefixPath(item.src)}
                                 className={styles.video}
                                 controls
                                 muted
