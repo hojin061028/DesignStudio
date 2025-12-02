@@ -55,7 +55,8 @@
     }
 
     .navLinks {
-        display: none;
-        /* Simple mobile hide for now */
+        display: flex;
+        gap: 1rem;
+        font-size: 0.85rem;
     }
 }

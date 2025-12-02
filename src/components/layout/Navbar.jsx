@@ -13,7 +13,7 @@ export default function Navbar() {
                 <li><Link href="/">home</Link></li>
                 <li><Link href="/images">images</Link></li>
                 <li><Link href="/videos">videos</Link></li>
-                <li><Link href="/option">option</Link></li>
+
             </ul>
         </nav>
     )
