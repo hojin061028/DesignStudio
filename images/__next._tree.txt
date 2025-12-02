@@ -8,4 +8,4 @@
 :HL["/DesignStudio/assets/images/Generated Image November 04, 2025 - 12_24PM.png","image"]
 :HL["/DesignStudio/assets/images/Generated Image November 04, 2025 - 12_25PM.png","image"]
 :HL["/DesignStudio/assets/images/qs.png","image"]
-0:{"buildId":"N8WdCdW_ckAZllO3e-NIT","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"images","paramType":null,"paramKey":"images","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
+0:{"buildId":"MwnpsljTCVc6UgecrwR04","tree":{"name":"","paramType":null,"paramKey":"","hasRuntimePrefetch":false,"slots":{"children":{"name":"images","paramType":null,"paramKey":"images","hasRuntimePrefetch":false,"slots":{"children":{"name":"__PAGE__","paramType":null,"paramKey":"__PAGE__","hasRuntimePrefetch":false,"slots":null,"isRootLayout":false}},"isRootLayout":false}},"isRootLayout":true},"staleTime":300}
